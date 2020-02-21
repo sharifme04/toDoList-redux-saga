@@ -1,0 +1,14 @@
+{
+  "name": "weventure",
+  "version": "1.0.0",
+  "description": "This is done by sharif hossain",
+  "scripts": {
+    "start": "json-server --port 3010 --watch api.json"
+  },
+  "keywords": [ "react", "css"],
+  "author": "Sharif Hossain",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "0.10.1"
+  }
+}

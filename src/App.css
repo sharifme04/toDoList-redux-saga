@@ -1,38 +1,110 @@
-.App {
+.container {
+  text-align: center;
+  background-color: #e6e6e6;
+  padding: 10px;
+  width: 100%;
+  min-height:900px;
+}
+h1{
+  color: #3d5c5c;
+  font-size: 2.5em;
+  margin-top: 35px;
+  margin-bottom: 50px;
+}
+input[type=text] {
+  width: 650px;
+  padding: 20px;
+  padding-right: 40px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+   text-indent: 50px;
+  box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.05);
+  color:grey;
+}
+.checkbox-style {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.trash-icon {
+  width: 20px;
+}
+.checked-icon{
+  width: 20px;
+}
+.unchecked-icon {
+  width: 20px;
+}
+.done-task-color {
+  color: #40bf80;
+  text-decoration: line-through;
+}
+.undone-task-color{
+  color:  #595959
+}
+.table-style {
+  margin: auto;
+  min-width: 710px;
+  text-align: center;
+  box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.05);
+  background: white;
+  border: none;
+}
+.comonclass{
+  text-align: left;
+  padding-left: 0;
+  width: 550px;
+}
+::-webkit-input-placeholder { /* Edge */
+  color: #bfbfbf;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+:-ms-input-placeholder { /* Internet Explorer */
+  color: #bfbfbf;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+::placeholder {
+  color: #bfbfbf;
+}
+.taskList{
+margin-top: 60px;
+}
+table {
+  border-collapse:collapse;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
-.App-link {
-  color: #61dafb;
+table tr td {
+  padding: 10px;
+  height: 45px;
+  font-size: 18px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+table tr:nth-child(odd) td{
+  background: white;
+}
+table tr:nth-child(even) td{
+  background: #f2f2f2;
+}
+.delete-all{
+  margin-top: 65px;
+  margin-bottom: 100px
+}
+.clearAll{
+  color: #b3b3b3;
+  margin-left: 5px;
+}
+label {
+  position: relative;
+}
+label:before {
+  content: "";
+  position: absolute;
+  left: 25px;
+  top: 0;
+  bottom: 0;
+  width: 20px;
+  background:url(./app/icons/pencil.svg);
+  background-repeat: no-repeat;
 }
