@@ -11,11 +11,6 @@
       "isChecked": true
     },
     {
-      "id": "04221936-88f0-4697-a00b-eaecf87c0c5d",
-      "plan": "Hi We venture",
-      "isChecked": false
-    },
-    {
       "id": "52d080ff-0b70-4d7a-abf1-b5b7eb823472",
       "plan": "Need to sleep at night",
       "isChecked": false
@@ -28,6 +23,16 @@
     {
       "id": "e857ae83-9197-49d7-94b7-98e73bfb390c",
       "plan": "need to get up early",
+      "isChecked": false
+    },
+    {
+      "id": "e65833ea-f0d6-4053-8ad0-07c6556bd9eb",
+      "plan": "this is now added",
+      "isChecked": false
+    },
+    {
+      "id": "9c3ab44a-df11-4e4b-b2de-e3edbe26911b",
+      "plan": "fgff dgdg",
       "isChecked": false
     }
   ]
