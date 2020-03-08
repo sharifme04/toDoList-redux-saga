@@ -18,7 +18,7 @@ Then again go back to main folder `toDoList-redux-saga` and run the react fronte
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-#Right now, There is no unit or snapshot test
+#`Right now, There is no unit or snapshot test`
 
 ### `CLEAR ALL` button will not work right now because there is no api for this.
 
